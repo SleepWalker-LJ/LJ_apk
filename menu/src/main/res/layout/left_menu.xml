@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:id="@+id/img1"
+                 android:layout_centerVertical="true"
+                 android:background="@drawable/ui"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp" />
+             <TextView
+                 android:id="@+id/txv1"
+                 android:layout_centerVertical="true"
+                 android:layout_toRightOf="@id/img1"
+                 android:textColor="#ffffff"
+                 android:text="UI模板"
+                 android:layout_marginLeft="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="20sp"/>
+
+         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_centerVertical="true"
+                android:background="@drawable/recycle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/tv_menu1"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/img2"
+                android:textColor="#ffffff"
+                android:text="RecycleView"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bilibili"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/img3"
+                android:textColor="#ffffff"
+                android:text="第三个item"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bilibili"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/img4"
+                android:textColor="#ffffff"
+                android:text="第四个item"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bilibili"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/img5"
+                android:textColor="#ffffff"
+                android:text="第五个item"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

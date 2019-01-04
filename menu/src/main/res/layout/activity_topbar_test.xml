@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Topbar_test">
+//这个xmlns: 就相当于import,导入相应的包
+    <com.example.menu.Utils.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+
+        app:leftBackground="#fafafa"
+        app:leftText="Back"
+        app:leftTextColor="@color/colorAccent"
+        app:rightBackground="#fafafa"
+        app:rightText="More"
+        app:rightTextColor="#fa0000"
+        app:title="自定义标题"
+        app:titleTextColor="#431234"
+        app:titleTextSize="10sp"
+        >
+
+    </com.example.menu.Utils.Topbar>
+
+</RelativeLayout>
